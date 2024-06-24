@@ -31,4 +31,7 @@ git status
 git commit -m "first commit"
 ```
 
-> -m 옵셥을 통해 메세지를 관리한다.
+> -m 옵션을 통해 메세지를 관리한다.
+
+
+***add commit의 수레바퀴가 돌아간다~***
