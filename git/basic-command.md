@@ -35,3 +35,16 @@ git commit -m "first commit"
 
 
 ***add commit의 수레바퀴가 돌아간다~***
+
+## remote add
+- 원격저장소의 주소를 저장하는 명령어
+
+```bash
+git remote add origin {remote_name} {remote_url}https://
+```
+
+## push
+- 원격 저장소로 브랜치를 업로드하는 명령어
+```bash
+git push origin 
+```
