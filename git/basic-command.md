@@ -2,6 +2,9 @@
 
 > git 기본 명령어를 정리해봅시당
 
+## 도식
+![i1](https://git-scm.com/book/en/v2/images/areas.png)
+
 ## init
 - 현재 위치(pwd)에 `.git` 폴더를 생성 (앞에 .이 붙으면 숨겨진 폴더라는 뜻) 추적
 
@@ -13,7 +16,7 @@ git init
 
 ## add
 - working directory 에서 staging area 로 업로드 하는 과정 (추적 가능하게 만드는 과정 Untracked -> index tracked)
-![i1](https://git-scm.com/book/en/v2/images/areas.png)
+
 
 ```bash
 git add .
@@ -38,6 +41,7 @@ git commit -m "first commit"
 
 ## remote add
 - 원격저장소의 주소를 저장하는 명령어
+    - ex. git remote add origin https://github.com/jjungcu519/trial.git
 
 ```bash
 git remote add origin {remote_name} {remote_url}https://
@@ -46,5 +50,6 @@ git remote add origin {remote_name} {remote_url}https://
 ## push
 - 원격 저장소로 브랜치를 업로드하는 명령어
 ```bash
-git push origin 
+git push origin master
+git push {remote_name} {branch_name}
 ```
