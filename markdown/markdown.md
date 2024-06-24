@@ -1,8 +1,10 @@
-# 제목이다.
-## 부제목이다.
-### 3번째 위계입니다.
+> *마크다운 문법을 공부합시다. (띄어쓰기 주의)*
 
-프로그래밍 **학습** *방법*
+# 제목
+## 부제목
+### 3번째 위계
+
+프로그래밍 **학습(볼드)** *방법(이텔릭)*
 
 > 인용구
 
@@ -12,8 +14,11 @@
 * 불렛입니다.
 - 이것도 불렛입니다.
 
+
 `python` 을 배워봅시다.
-인라인 코드 블럭입니다.
+
+*cf. python에는 인라인 코드가 적용되었습니다.*
+
 
 ```python
 def hello():
@@ -28,4 +33,4 @@ console.log('hi')
 
 [(클릭!) 구글 바로가기](https://google.com)
 
-![행복한 고양이](https://i1.sndcdn.com/artworks-5J6NQBl87UopMKn7-0oAxYQ-t1080x1080.jpg)
+![happy cat](https://i1.sndcdn.com/artworks-5J6NQBl87UopMKn7-0oAxYQ-t1080x1080.jpg)
