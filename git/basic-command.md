@@ -7,6 +7,12 @@
 >*cf. 3stage란? modified/staged/commited*
 
 
+## 0. 깃 관리
+- 프로젝트별 (폴더별) git 관리를 진행하는 것을 권장
+-ls -a로 .git 파일이 있는지 확인하고 신규 레파지토리 생성
+- 관리하지 않는 venv requirements 등은 .git ignore로 관리
+    - 2. add 하기 전까지 반드시 .gitignore 파일을 생성해주자. 
+
 ## 1. init
 - 현재 위치(pwd)에 추적을 위한 `.git` 폴더를 생성
     - .git이 상,하위 폴더에 동시에 존재하면 충돌한다.
